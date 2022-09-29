@@ -1,17 +1,23 @@
 .layout__sidebar {
-    width: 450px;
+    width: 420px;
     display: flex;
-    height: 100vh;
     position: fixed;
+    min-height: 100vh;
     padding: 0 0 1rem 1rem;
     flex-direction: column;
-    justify-content: space-between;
-    /* border: 1px solid var(--colorBlanco);
-    border-right: 3px solid var(--colorGrisOscuro); */
 }
 
 .layout__sidebar--section {
     padding-top: 1rem;
+}
+
+.sidebar__logo--text {
+    text-align: end;
+    margin: 1rem 1rem 0 0;
+}
+
+.sidebar__logo--text p {
+    margin-bottom: 0;
 }
 
 .sidebar__logo--text strong { 
@@ -20,6 +26,7 @@
 
 .sidebar__logo--links {
     padding: 0;
+    margin: 30px 0 130px 10px;
 }
 
 .container__lateral {
@@ -27,7 +34,6 @@
     position: fixed;
     min-height: 100vh;
     border-right: solid 12px var(--colorAmarillo);
-
 }
 
 .container__lateral--final {
@@ -38,17 +44,15 @@
 }
 
 .sidebar__logo--individual {
-    width: 250px;
-    height: 228px;
-    margin: 0px 0px 0px 165px;
+    width: 170px;
+    height: 170px;
+    margin: 0px 0px 0px 218px;
     border: 1px solid var(--colorAmarillo);
-    /* width: 260px;
-    height: 260px; */
 }
 
 .sidebar__logo--individual img {
-    width: 250px;
-    height: 220px;
+    width: 170px;
+    height: 170px;
     padding: 1rem;
 }
 
@@ -62,17 +66,9 @@
 }
 
 .sidebar__logo--links p a {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-top: .5rem;
-    text-decoration: none;
+    font-size: 1.5rem;
     color: var(--colorBlanco);
     text-decoration: underline var(--colorAmarillo);
-}
-
-.sidebar__logo--text {
-    margin: 1rem;
-    text-align: end;
 }
 
 .sidebar__logo--barra {
@@ -84,9 +80,17 @@
 
 .sidebar__social {
     display: flex;
+    margin-bottom: 1.5rem;
 }
 
-.footer__menu {
-    text-align: center;
+.sidebar__social figure:nth-child(1) {
+    margin-right: 1rem;
 }
 
+.sidebar__social figure {
+    margin: 0;
+}
+
+.sidebar__social figure img {
+    width: 50px;
+}
