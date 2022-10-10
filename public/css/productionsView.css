@@ -6,6 +6,10 @@
     /* width: 40vw; */
 }
 
+.img__vistas--:nth-child(1) {
+    margin-top: 0;
+}
+
 /* .layout__main--global{
     display: flex;
 } */
