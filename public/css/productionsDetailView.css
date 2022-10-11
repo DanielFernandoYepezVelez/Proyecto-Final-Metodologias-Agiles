@@ -6,6 +6,11 @@
     color: #CBCAC9;;
 }
 
+.img__productions.gemelaClass {
+    display: flex;
+    gap: 1rem;
+}
+
 .flex__container--imagenes{
     display: flex;
     justify-content: center;
@@ -26,10 +31,22 @@ div>img{
 }
 
 .titulo__descripcion{
-    color: white;
+    color: var(--colorBlanco);
     text-transform: uppercase;
     margin-left: 20px;
     font-size: 1.5rem;
+}
+
+.titulo__descripcion--burger {
+    font-size: 1.5rem;
+    color: var(--colorBlanco);
+    text-transform: uppercase;
+}
+
+.titulo__descripcion--skins {
+    font-size: 1.5rem;
+    color: var(--colorBlanco);
+    text-transform: uppercase;
 }
 
 .parrafo__descripcion--h {
@@ -42,7 +59,6 @@ div>img{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .ice__cream--img>img{
@@ -79,7 +95,6 @@ div>img{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .Puntos_Fijos>img{
@@ -88,14 +103,12 @@ div>img{
     margin-top: 10px;
     margin-bottom: 10px;
     border-style: hidden;
-
 }
 
 .Titulo__descripcion{
     font-size: 1.5rem;
     color: #FFFFFF;
 }
-
 
 /* ------------------- */
 
@@ -133,32 +146,32 @@ div>img{
 
 /* ------------------------ */
 
-.parrafo__descripcion1{
+.parrafo__descripcion1 {
     color: var(--colorBlanco);
     font-size: 30px;
     margin: 4% 0px 10px 4% ;
 }
 
-.flex__container--imagenes .museo{
+.flex__container--imagenes .museo {
     display: flex;
     justify-content: center;
     flex-direction: column;
-   align-items: center;
-   
-    
+    align-items: center;    
 }
-.parrafo__descripcion---{
- font-size: 17px;
- color: var(--colorGrisOscuro);
- margin: 0px 0px 5% 4%;
+
+.parrafo__descripcion--- {
+    font-size: 17px;
+    color: #CBCAC9;
+    margin: 0px 0px 5% 4%;
+    /* color: var(--colorGrisOscuro); */
 }
+
 .museo>img{
     margin-left: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
     width: 65vw;
- height: 70vh;
- margin-bottom: 4%;
- border: 2px solid var(--colorGrisOscuro);
-
+    height: 70vh;
+    margin-bottom: 4%;
+    border: 2px solid var(--colorGrisOscuro);
 }
